@@ -1,1 +1,2 @@
-# Learning About HTTP cookies
+## Learning About HTTP cookies
+# A cookie (also known as a web cookie or browser cookie) is a small piece of data a server sends to a user's web browser. The browser may store cookies, create new cookies, modify existing ones, and send them back to the same server with later requests.
