@@ -7,4 +7,4 @@ const server = http.createServer((req,res)=>{
     }
 });
 
-server.listen(PORT,()=>console.log('Beta Server running at http://app-server.local:${PORT}'));
+server.listen(PORT,()=>console.log(`Beta Server running at http://app-server.local:${PORT}`));
