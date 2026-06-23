@@ -5,7 +5,10 @@ const server = http.createServer((req,res)=>{
         res.writeHead(200, {'Content-Type': 'text/html'});
         res.end('<h1>Welcome to Alpha Server </h1>');
     }
-
+    else if(req.url.startsWith('/callback'))
+    {
+        res.end(`<h1>Finally you found the mistake</h1>`);
+    }
     else if(req.url ==='/test-sso-connection'){
         http.get('http://sso-core.local:5000/ping', (ssoRes) => {
             let data = '';
